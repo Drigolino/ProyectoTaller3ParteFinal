@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7
   target: {fileID: 0}
-  stopingDistance: 3
+  stopingDistance: 4
   range: 8
   health: 10
   animator: {fileID: 1623701126050361467}

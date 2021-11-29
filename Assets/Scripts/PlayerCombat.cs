@@ -8,7 +8,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public int attackDamage = 10;
+    public int attackDamage = 50;
     public Boss2 Boss;
     public GameObject move;
     [SerializeField]
@@ -55,7 +55,7 @@ public class PlayerCombat : MonoBehaviour
 
                 }
 
-                else if (enemy.gameObject.CompareTag("Enemy"))//minionsDamage
+                if (enemy.gameObject.CompareTag("Enemy"))//minionsDamage
 
                 {
                     //  Debug.Log("enemigo atacado");
