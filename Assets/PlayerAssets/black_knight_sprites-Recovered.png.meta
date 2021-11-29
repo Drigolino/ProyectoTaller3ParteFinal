@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: c026c3165c6e69846a820fb642e21448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4158830782142870953
+    second: black_knight_sprites-Recovered_0
+  - first:
+      213: -4354409089869082636
+    second: black_knight_sprites-Recovered_1
+  - first:
+      213: 46574180213211460
+    second: black_knight_sprites-Recovered_2
+  - first:
+      213: 2298242903607183960
+    second: black_knight_sprites-Recovered_3
+  - first:
+      213: -453075856398708663
+    second: black_knight_sprites-Recovered_4
+  - first:
+      213: 6964450647089610872
+    second: black_knight_sprites-Recovered_5
+  - first:
+      213: 8356595361490397746
+    second: black_knight_sprites-Recovered_6
+  - first:
+      213: -4939746999891237206
+    second: black_knight_sprites-Recovered_7
+  - first:
+      213: -3458175943096669282
+    second: black_knight_sprites-Recovered_8
+  - first:
+      213: 763262217541579843
+    second: black_knight_sprites-Recovered_9
+  - first:
+      213: 4193591241711239684
+    second: black_knight_sprites-Recovered_10
+  - first:
+      213: 8870426821230773955
+    second: black_knight_sprites-Recovered_11
+  - first:
+      213: 5403651117267415668
+    second: black_knight_sprites-Recovered_12
+  - first:
+      213: 1894796850900387710
+    second: black_knight_sprites-Recovered_13
+  - first:
+      213: -7808067477972211718
+    second: black_knight_sprites-Recovered_14
+  - first:
+      213: 7771562562881241032
+    second: black_knight_sprites-Recovered_15
+  - first:
+      213: 4803958299221735292
+    second: black_knight_sprites-Recovered_16
+  - first:
+      213: 7308707297617729573
+    second: black_knight_sprites-Recovered_17
+  - first:
+      213: 3486628859156673725
+    second: black_knight_sprites-Recovered_18
+  - first:
+      213: -4452347766563242915
+    second: black_knight_sprites-Recovered_19
+  - first:
+      213: 6196366013284255965
+    second: black_knight_sprites-Recovered_20
+  - first:
+      213: 1157531662421418957
+    second: black_knight_sprites-Recovered_21
+  - first:
+      213: -1248604496500239122
+    second: black_knight_sprites-Recovered_22
+  - first:
+      213: 2237078726191401987
+    second: black_knight_sprites-Recovered_23
+  - first:
+      213: 1183135807916974358
+    second: black_knight_sprites-Recovered_24
+  - first:
+      213: -1983854591698364180
+    second: black_knight_sprites-Recovered_25
+  - first:
+      213: 2939475175858661510
+    second: black_knight_sprites-Recovered_26
+  - first:
+      213: -3105536663937211384
+    second: black_knight_sprites-Recovered_27
+  - first:
+      213: -7775647803129937468
+    second: black_knight_sprites-Recovered_28
+  - first:
+      213: 2024279891680739071
+    second: black_knight_sprites-Recovered_29
+  - first:
+      213: 4029728717817879341
+    second: black_knight_sprites-Recovered_30
+  - first:
+      213: -2373019711748862279
+    second: black_knight_sprites-Recovered_31
+  - first:
+      213: -5143451248315167621
+    second: black_knight_sprites-Recovered_32
+  - first:
+      213: -8304759839462862170
+    second: black_knight_sprites-Recovered_33
+  - first:
+      213: -3857183725221171964
+    second: black_knight_sprites-Recovered_34
+  - first:
+      213: -2954916430052180523
+    second: black_knight_sprites-Recovered_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 480
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f59adf8227b930800000000000000
+      internalID: 4158830782142870953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 480
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff0f9fd0080293c0800000000000000
+      internalID: -4354409089869082636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 480
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441405b58f675a000800000000000000
+      internalID: 46574180213211460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_3
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 480
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a81158ebff4ef10800000000000000
+      internalID: 2298242903607183960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 480
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9409c0bb8e956b9f0800000000000000
+      internalID: -453075856398708663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_5
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 480
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870048bd6f2b6a060800000000000000
+      internalID: 6964450647089610872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_6
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 417
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aef45c43798f370800000000000000
+      internalID: 8356595361490397746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 417
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa66e27864e727bb0800000000000000
+      internalID: -4939746999891237206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_8
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 416
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bebec4d471200d0800000000000000
+      internalID: -3458175943096669282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 416
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344fa0361f6a79a00800000000000000
+      internalID: 763262217541579843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 418
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40243670401a23a30800000000000000
+      internalID: 4193591241711239684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_11
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 418
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ce8542361a1b70800000000000000
+      internalID: 8870426821230773955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 416
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472fdd6bf00adfa40800000000000000
+      internalID: 5403651117267415668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_13
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 416
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77427362bbab4a10800000000000000
+      internalID: 1894796850900387710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 352
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7af296ffb24a390800000000000000
+      internalID: -7808067477972211718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_15
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 352
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfb246b9f22adb60800000000000000
+      internalID: 7771562562881241032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_16
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 352
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77b6e4ee961ba240800000000000000
+      internalID: 4803958299221735292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_17
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 288
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5285fc1609ebd6560800000000000000
+      internalID: 7308707297617729573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_18
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 288
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4b8a5797ef26030800000000000000
+      internalID: 3486628859156673725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_19
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 288
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7e7dbb451632c0800000000000000
+      internalID: -4452347766563242915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_20
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 288
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd88c103f0aedf550800000000000000
+      internalID: 6196366013284255965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_21
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 288
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc365e20ae0601010800000000000000
+      internalID: 1157531662421418957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_22
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 288
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4d52963d01caee0800000000000000
+      internalID: -1248604496500239122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_23
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 224
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cc839bf33bb0f10800000000000000
+      internalID: 2237078726191401987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 224
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 611afefafb75b6010800000000000000
+      internalID: 1183135807916974358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 224
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce89acf72cee774e0800000000000000
+      internalID: -1983854591698364180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 224
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6886223391d1bc820800000000000000
+      internalID: 2939475175858661510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_27
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 224
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8042215abdae6e4d0800000000000000
+      internalID: -3105536663937211384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_28
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 224
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1c4eb2589571490800000000000000
+      internalID: -7775647803129937468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_29
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 224
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeb89d16dfa71c10800000000000000
+      internalID: 2024279891680739071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 144
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b99be1be87ce730800000000000000
+      internalID: 4029728717817879341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_31
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 144
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be853c1527511fd0800000000000000
+      internalID: -2373019711748862279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_32
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 144
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c82a0475ace98b0800000000000000
+      internalID: -5143451248315167621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_33
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 144
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2d2ef2de09fbc80800000000000000
+      internalID: -8304759839462862170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_34
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 144
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d26c096d7887ac0800000000000000
+      internalID: -3857183725221171964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: black_knight_sprites-Recovered_35
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 144
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd36c5a9270ef6d0800000000000000
+      internalID: -2954916430052180523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
