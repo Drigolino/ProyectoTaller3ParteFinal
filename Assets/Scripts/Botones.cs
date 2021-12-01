@@ -7,7 +7,7 @@ public class Botones : MonoBehaviour
 {
     public void PlayAgain()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Nivel 1");
     }
     public void ExitButton()
     {

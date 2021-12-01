@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField]
-    int health = 80;
+    int health = 2;
     int currentHealth;
     public float speed;
     public float stoppingDistance;
@@ -99,7 +99,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bala")
         {
-            health -= 10;
+            health -= 1;
             Destroy(collision.gameObject);
             if (health <= 0)
             {

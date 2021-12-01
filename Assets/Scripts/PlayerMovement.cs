@@ -17,7 +17,9 @@ public class PlayerMovement : MonoBehaviour
     public GameObject boss3;
     public GameObject boss2;
     public GameObject boss1;
-    //bool damagePlayer = false;    
+    //bool damagePlayer = false;
+    public bool zoomOutCamera=false;
+    public Camera cam;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _uiManager.UpdateLives(health);
         }
+        cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -46,7 +49,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Horizontal", movement.x);
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
-        
+        if (zoomOutCamera == true)
+        {            
+            cam.orthographicSize = 40;
+        }
     }
     void FixedUpdate()
     {
@@ -56,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.tag == "BulletEnemy")
         {
-            health -= 10;
+            health -= 1;
             animator.SetTrigger("DamagePlayer");
 
             Destroy(collision.gameObject);
@@ -84,14 +90,17 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "ActivaBoss3")
         {
             boss3.SetActive(true);
+            zoomOutCamera = true;
         }
         if (collision.gameObject.tag == "ActivaBoss2")
         {
             boss2.SetActive(true);
+            zoomOutCamera = true;
         }
         if (collision.gameObject.tag == "ActBoss1")
         {
             boss1.SetActive(true);
+            zoomOutCamera = true;
         }
 
         _uiManager.UpdateLives(health);       
