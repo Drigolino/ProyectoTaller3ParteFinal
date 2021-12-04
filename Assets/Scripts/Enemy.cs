@@ -55,17 +55,14 @@ public class Enemy : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-
-        //Animacion de Muerte
-
-        if(currentHealth<=0)
         {
-            Die();
+            Score.score += 1;
+            Destroy(gameObject);
+
         }
 
     }
-    void Die()
+    public void Die()
     {
         Debug.Log("Murio el Enemigo");
     }
@@ -107,7 +104,5 @@ public class Enemy : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-    }
-
-
+    }    
 }

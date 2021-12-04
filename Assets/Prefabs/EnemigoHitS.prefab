@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2085094297881896522}
   m_Layer: 8
   m_Name: EnemigoHitS
-  m_TagString: Enemy
+  m_TagString: EnemyHitS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,13 +94,13 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601432403769197624}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.99, y: -0.89}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 1}
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.9499998, y: 2.6699998}
+  m_Size: {x: 1.46, y: 1.4}
   m_EdgeRadius: 0
 --- !u!50 &601432403769197571
 Rigidbody2D:
@@ -147,9 +147,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.8, y: -0.87}
+  m_Offset: {x: -1.9, y: -0.79}
   serializedVersion: 2
-  m_Radius: 0.83258784
+  m_Radius: 0.38
 --- !u!95 &2432019461347082569
 Animator:
   serializedVersion: 3
@@ -183,9 +183,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   target: {fileID: 0}
-  stopingDistance: 4
+  stopingDistance: 6
   range: 8
-  health: 10
+  health: 2
   animator: {fileID: 2432019461347082569}
 --- !u!1 &8670197872204449166
 GameObject:

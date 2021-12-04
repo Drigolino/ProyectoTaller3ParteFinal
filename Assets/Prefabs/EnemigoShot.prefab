@@ -224,7 +224,7 @@ MonoBehaviour:
   retreatDistance: 6
   player: {fileID: 0}
   starTimeBtwShots: 2.44
-  proyectile: {fileID: 1521641303187749201, guid: ec558d43179bf284eac8e37f05151e3e,
+  proyectile: {fileID: 8940428781632341704, guid: 62da08a3044ad7b40ae46c69def82d56,
     type: 3}
   range: 6
   target: {fileID: 7375957004432527584, guid: 83f4837a217749444b70615f1602d58e, type: 3}

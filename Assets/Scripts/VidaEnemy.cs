@@ -15,7 +15,7 @@ public class VidaEnemy : MonoBehaviour
     {
         //    lives = Mathf.Clamp(lives, 0, 1000);
         //   VidaBoss.fillAmount = lives / 100;
-        VidaBoss.fillAmount = Mathf.Clamp(lives/800,0,1);
+        VidaBoss.fillAmount = Mathf.Clamp(lives/100,0,2);
     }
     public void UpdateLivesBoss(float totalvidas)
     {

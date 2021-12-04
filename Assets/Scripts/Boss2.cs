@@ -13,8 +13,8 @@ public class Boss2 : MonoBehaviour
 
 
     [SerializeField]
-    int health = 700;
-    int attackDamage = 10;
+    int health = 100;
+    int attackDamage = 2;
     public float speed;
     public float stoppingDistance;
     public float retreatDistance;
@@ -49,9 +49,10 @@ public class Boss2 : MonoBehaviour
     public string sceneName;
     public VidaEnemy _uiManager;
 
-    bool StayFollow = false;
+    //bool StayFollow = false;
     public float time = 0.2f;
     float timeAux = 0.2f;
+    bool cambiarEscena = false;
 
     void Start()
     {
@@ -79,7 +80,7 @@ public class Boss2 : MonoBehaviour
             if (timeBtwShots <= 0)
             {
                 Instantiate(proyectile, transform.position, Quaternion.identity);               
-                StayFollow = true;
+                //StayFollow = true;
                 timeBtwShots = starTimeBtwShots;
             }
             else
@@ -105,10 +106,10 @@ public class Boss2 : MonoBehaviour
 
         }
 
-        if (health <= 10)
-        {
-            Die();
-        }
+        //if (health <= 10)
+        //{
+        //    Die();
+        //}
 
         //if (Vector3.Distance(player.position, transform.position) <= range)
         //{
@@ -121,7 +122,7 @@ public class Boss2 : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        if (health<=500 )
+        if (health<=50 )
         {
             shieldsActive = true;
         }
@@ -131,14 +132,14 @@ public class Boss2 : MonoBehaviour
 
             StartCoroutine(TimeShield());
         }
-       
-        if (health>0 &&shieldsActive == false)
+
+        if (health > 0 && shieldsActive == false)
         {
             health -= damage;
         }
         //Animacion de Muerte
 
-       
+
 
     }
     IEnumerator TimeShield()
@@ -207,12 +208,19 @@ public class Boss2 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bala")
         {
-            health -= 200;
+            health -= 1;
             Destroy(collision.gameObject);
             if (health <= 0)
             {
-                SceneManager.LoadScene(sceneName);
-                StartCoroutine(LoadScene());
+                Destroy(collision.gameObject);
+                cambiarEscena = true;
+                if(cambiarEscena==true)
+                {
+                    SceneManager.LoadScene(sceneName);
+                    StartCoroutine(LoadScene());
+                }
+                
+                
             }
         }
     }

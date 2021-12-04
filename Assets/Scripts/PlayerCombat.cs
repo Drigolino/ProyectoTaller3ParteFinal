@@ -8,7 +8,7 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
-    public int attackDamage = 50;
+    public int attackDamage = 10;
     public Boss2 Boss;
     public GameObject move;
     [SerializeField]
@@ -39,7 +39,7 @@ public class PlayerCombat : MonoBehaviour
                 if (enemy.gameObject.CompareTag("Boss"))//1
                 {
                     //  Boss.TakeDamage(attackDamage);
-                    enemy.gameObject.GetComponent<Boss2>().TakeDamage(attackDamage);
+                    enemy.gameObject.GetComponent<Boss>().TakeDamage(attackDamage);
 
                 }
                 if (enemy.gameObject.CompareTag("Boss2"))//2
@@ -51,7 +51,7 @@ public class PlayerCombat : MonoBehaviour
                 if (enemy.gameObject.CompareTag("Boss3"))//3
                 {
                     //  Boss.TakeDamage(attackDamage);
-                    enemy.gameObject.GetComponent<Boss2>().TakeDamage(attackDamage);
+                    enemy.gameObject.GetComponent<Boss3>().TakeDamage(attackDamage);
 
                 }
 
@@ -61,7 +61,26 @@ public class PlayerCombat : MonoBehaviour
                     //  Debug.Log("enemigo atacado");
                     enemy.gameObject.GetComponent<Enemy>().TakeDamage(attackDamage);
                 }
-                //  GetComponent<Boss2>().TakeDamage(attackDamage);
+
+                if (enemy.gameObject.CompareTag("EnemyHitS"))//minionsDamage
+
+                {
+                    //  Debug.Log("enemigo atacado");
+                    enemy.gameObject.GetComponent<Ai22>().TakeDamage(attackDamage);
+                }
+                if (enemy.gameObject.CompareTag("EnemyHit"))//minionsDamage
+
+                {
+                    //  Debug.Log("enemigo atacado");
+                    enemy.gameObject.GetComponent<Ai2>().TakeDamage(attackDamage);
+                }
+                if (enemy.gameObject.CompareTag("EnemyS"))//minionsDamage
+
+                {
+                    //  Debug.Log("enemigo atacado");
+                    enemy.gameObject.GetComponent<Enemy2>().TakeDamage(attackDamage);
+                }               
+                //GetComponent<Boss2>().TakeDamage(attackDamage);
 
             }
             _canFire = Time.time + _fireRate;

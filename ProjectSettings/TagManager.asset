@@ -14,6 +14,10 @@ TagManager:
   - ActivaBoss3
   - ActivaBoss2
   - ActBoss1
+  - EnemyHit
+  - EnemyS
+  - EnemyHitS
+  - EnemyS2
   layers:
   - Default
   - TransparentFX

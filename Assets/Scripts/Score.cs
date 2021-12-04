@@ -14,6 +14,7 @@ public class Score : MonoBehaviour
     {
         Load();
         score = 0;
+        //PlayerPrefs.SetInt("score", 0);
         //PlayerPrefs.SetInt("highscore", 0);
     }
 

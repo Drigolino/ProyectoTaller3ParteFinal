@@ -89,15 +89,9 @@ public class Boss : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+        health -= 2;
 
-        //Animacion de Muerte
-
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-
+        //Animacion de Muerte        
     }
     void Die()
     {
@@ -149,7 +143,7 @@ public class Boss : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bala")
         {
-            health -= 10;
+            health -= 50;
             Destroy(collision.gameObject);
             if (health <= 0)
             {

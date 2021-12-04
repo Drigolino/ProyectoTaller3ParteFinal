@@ -34,7 +34,7 @@ public class Boss3 : MonoBehaviour
     private bool facingLeft = true;
     private Rigidbody2D enemyRB;
     private Animator animator;
-    public int health = 100;
+    public int health = 120;
     public string sceneName;
     public Animator transitionAnim;
     public EnemyTres _uiManager;
@@ -77,6 +77,17 @@ public class Boss3 : MonoBehaviour
             //ataquePlayer
             animator.SetTrigger("AtaqueAPlayer");
         }
+    }
+    public void TakeDamage(int damage)
+    {       
+
+        
+            health -= 2;
+        
+        //Animacion de Muerte
+
+
+
     }
 
     public void IdelState()
@@ -192,7 +203,7 @@ public class Boss3 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bala")
         {
-            health -= 10;
+            health -= 1;
             Destroy(collision.gameObject);
             if (health <= 0)
             {

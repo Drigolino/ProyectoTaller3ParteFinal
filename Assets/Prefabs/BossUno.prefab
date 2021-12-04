@@ -161,9 +161,9 @@ GameObject:
   - component: {fileID: 5346599333518183337}
   - component: {fileID: 5346599333518183338}
   - component: {fileID: 8013770252395283898}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BossUno
-  m_TagString: Untagged
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

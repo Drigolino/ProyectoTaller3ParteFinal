@@ -69,24 +69,44 @@ public class PlayerMovement : MonoBehaviour
             if (health <= 0)
             {
                 SceneManager.LoadScene("GameOver");
-            }
-
+            }           
         }
-        if (collision.gameObject.tag == "Trampa")
-        {            
-            health -= 10;
-            Debug.Log("MenosVida");
-            animator.SetTrigger("DamagePlayer");
-        }
-        if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "EnemyHitS")
         {
-            health -= 10;
+            health -= 2;
             animator.SetTrigger("DamagePlayer");
             if (health <= 0)
             {
                 SceneManager.LoadScene("GameOver");
             }
         }
+        if (collision.gameObject.tag == "EnemyHit")
+        {
+            health -= 2;
+            animator.SetTrigger("DamagePlayer");
+            if (health <= 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
+        }
+        if (collision.gameObject.tag == "Boss3")
+        {
+            health -= 2;
+            animator.SetTrigger("DamagePlayer");
+            if (health <= 0)
+            {
+                SceneManager.LoadScene("GameOver");
+            }
+        }
+
+
+        if (collision.gameObject.tag == "Trampa")
+        {            
+            health -= 3;
+            Debug.Log("MenosVida");
+            animator.SetTrigger("DamagePlayer");
+        }
+        
         if (collision.gameObject.tag == "ActivaBoss3")
         {
             boss3.SetActive(true);
@@ -102,8 +122,9 @@ public class PlayerMovement : MonoBehaviour
             boss1.SetActive(true);
             zoomOutCamera = true;
         }
+       
 
-        _uiManager.UpdateLives(health);       
+            _uiManager.UpdateLives(health);       
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -114,6 +135,7 @@ public class PlayerMovement : MonoBehaviour
             
 
         }
+        
         _uiManager.UpdateLives(health);
     }
     public void DesactivarDamage()

@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 73c45e7093d25fd4f82f968217f73abf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1116489628808853837
+    second: enemigo nivel 3-Recovered-Recovered_0
+  - first:
+      213: 2353044141454157493
+    second: enemigo nivel 3-Recovered-Recovered_1
+  - first:
+      213: -2961641407267053413
+    second: enemigo nivel 3-Recovered-Recovered_2
+  - first:
+      213: 3002656875177728176
+    second: enemigo nivel 3-Recovered-Recovered_3
+  - first:
+      213: 2723025797662832560
+    second: enemigo nivel 3-Recovered-Recovered_4
+  - first:
+      213: -9177482339781331736
+    second: enemigo nivel 3-Recovered-Recovered_5
+  - first:
+      213: -1117913762037952934
+    second: enemigo nivel 3-Recovered-Recovered_6
+  - first:
+      213: -5857234906693534183
+    second: enemigo nivel 3-Recovered-Recovered_7
+  - first:
+      213: 1057908515344135148
+    second: enemigo nivel 3-Recovered-Recovered_8
+  - first:
+      213: -1511418304804905455
+    second: enemigo nivel 3-Recovered-Recovered_9
+  - first:
+      213: -227345628734876015
+    second: enemigo nivel 3-Recovered-Recovered_10
+  - first:
+      213: -5744425854308478574
+    second: enemigo nivel 3-Recovered-Recovered_11
+  - first:
+      213: 4565210428735106559
+    second: enemigo nivel 3-Recovered-Recovered_12
+  - first:
+      213: -6580331391724991007
+    second: enemigo nivel 3-Recovered-Recovered_13
+  - first:
+      213: -980599373050789973
+    second: enemigo nivel 3-Recovered-Recovered_14
+  - first:
+      213: 2844571040170058697
+    second: enemigo nivel 3-Recovered-Recovered_15
+  - first:
+      213: -2939310676126154053
+    second: enemigo nivel 3-Recovered-Recovered_16
+  - first:
+      213: -584665842432562936
+    second: enemigo nivel 3-Recovered-Recovered_17
+  - first:
+      213: 3402066660132902314
+    second: enemigo nivel 3-Recovered-Recovered_18
+  - first:
+      213: -7744730649308513654
+    second: enemigo nivel 3-Recovered-Recovered_19
+  - first:
+      213: -6290441751823384230
+    second: enemigo nivel 3-Recovered-Recovered_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6c077199e6180f0800000000000000
+      internalID: -1116489628808853837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b660300e21b7a020800000000000000
+      internalID: 2353044141454157493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_2
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9062cfd4d226e6d0800000000000000
+      internalID: -2961641407267053413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b85a5be4849ba920800000000000000
+      internalID: 3002656875177728176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7fae729812ac520800000000000000
+      internalID: 2723025797662832560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4b9e4bf6803a080800000000000000
+      internalID: -9177482339781331736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 1
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e053c3b5f5c70f0800000000000000
+      internalID: -1117913762037952934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_7
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e7384a2ebe6bea0800000000000000
+      internalID: -5857234906693534183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_8
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3b2fd80327eae00800000000000000
+      internalID: 1057908515344135148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 1
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e94134f0d560be0800000000000000
+      internalID: -1511418304804905455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_10
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196150eea5e48dcf0800000000000000
+      internalID: -227345628734876015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2919f5bee13b740b0800000000000000
+      internalID: -5744425854308478574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_12
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd2aa982b2ea5f30800000000000000
+      internalID: 4565210428735106559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_13
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed41eb9677fda4a0800000000000000
+      internalID: -6580331391724991007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_14
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 1
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf365ec0163462f0800000000000000
+      internalID: -980599373050789973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_15
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c323b33a42f97720800000000000000
+      internalID: 2844571040170058697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2ccf063887537d0800000000000000
+      internalID: -2939310676126154053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_17
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809a0859389d2e7f0800000000000000
+      internalID: -584665842432562936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_18
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5db6b3a91963f20800000000000000
+      internalID: 3402066660132902314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_19
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 1
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ab2eef180358490800000000000000
+      internalID: -7744730649308513654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigo nivel 3-Recovered-Recovered_20
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51084e0e8cd3b8a0800000000000000
+      internalID: -6290441751823384230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

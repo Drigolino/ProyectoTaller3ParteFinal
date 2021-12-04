@@ -18,7 +18,7 @@ public class Ai2 : MonoBehaviour
     private float range;
     bool StayFollow = true;
     [SerializeField]
-    int health = 100;
+    int health = 2;
     float enemyX = 1.0F;
     float enemyY = 1.0F;
     public Animator animator;
@@ -62,7 +62,7 @@ public class Ai2 : MonoBehaviour
     {
         if(collision.gameObject.tag=="Bala")
         {
-            health -= 10;
+            health -= 1;
             Destroy(collision.gameObject);
             if(health<=0)
             {
@@ -71,6 +71,20 @@ public class Ai2 : MonoBehaviour
             }
         }
        
+    }
+    public void TakeDamage(int damage)
+    {
+
+
+        {
+            Score.score += 1;
+            Destroy(gameObject);
+
+        }
+        //Animacion de Muerte
+
+
+
     }
 
 }

@@ -231,7 +231,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 1024
-  health: 100
+  health: 120
   sceneName: 
   transitionAnim: {fileID: 0}
   _uiManager: {fileID: 3748522488423429344}
@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boss: {fileID: 1537523415494754075}
-  lives: 100
+  lives: 120
   VidaBoss: {fileID: 5158014394609440139}
 --- !u!1001 &3421911858629083953
 PrefabInstance:

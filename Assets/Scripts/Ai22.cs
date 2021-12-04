@@ -14,7 +14,7 @@ public class Ai22 : MonoBehaviour
     private float range;
     bool StayFollow = false;
     [SerializeField]
-    int health = 100;
+    int health = 2;
     float enemyX = 1.0F;
     float enemyY = 1.0F;
     public Animator animator;
@@ -58,7 +58,8 @@ public class Ai22 : MonoBehaviour
     {
         if (collision.gameObject.tag == "Bala")
         {
-            health -= 10;
+            Debug.Log("dañoPlayer");
+            health -= 1;
             Destroy(collision.gameObject);
             if (health <= 0)
             {
@@ -66,6 +67,21 @@ public class Ai22 : MonoBehaviour
                 Destroy(gameObject);
             }
         }
+
+    }
+    public void TakeDamage(int damage)
+    {
+
+
+        //if (health > 0)
+        {
+            Score.score += 1;
+            Destroy(gameObject);
+
+        }
+        //Animacion de Muerte
+
+
 
     }
 }

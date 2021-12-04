@@ -55,13 +55,10 @@ public class Enemy2 : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-
-        //Animacion de Muerte
-
-        if (currentHealth <= 0)
         {
-            Die();
+            Score.score += 1;
+            Destroy(gameObject);
+
         }
 
     }
@@ -107,5 +104,5 @@ public class Enemy2 : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-    }
+    }    
 }

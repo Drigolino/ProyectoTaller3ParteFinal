@@ -21,4 +21,8 @@ public class Botones : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel3");
     }
+    public void Menu()
+    {
+        SceneManager.LoadScene("Escenario_Inicial");
+    }
 }
